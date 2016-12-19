@@ -4,9 +4,26 @@
     <title>我们的故事</title>
 </head>
 $(document).attr("title", "我们的故事");
-<p>小龙女，自从我们第一次相见，时间，已经过去了：</p>
-<div id="elapseClock">
+
+<div class="modal show" style="top:24%;">
+        <div class="modal-dialog" style="opacity: .9">
+            <div class="modal-content" style="opacity:.85">
+                <div class="modal-header">
+                    <h1 class="text-center" style="color: #A94442;font-family: 'JournalRegular', Arial, sans-serif;font-size: 7rem;">小龙女，自从我们第一次相见，时间，已经过去了：</h1>
+                </div>
+                <div id="elapseClock">
 <span class="digit">0</span> year <span class="digit">2</span> month <span class="digit">0</span> day <span class="digit">07</span> hr <span class="digit">22</span> min <span class="digit">33</span> sec</div>
+                 <p class="text-center" style="color:#A94442;font-size: 17px" id="say">
+                在看到你的那一刻，我心动了。
+                身为IT男的我，不太会玩浪漫，我也不会说太多的甜言蜜语，我用写代码的方式创造了这个页面，生成了这只玫瑰花，它只为你而开放。
+                我，其实不是很会谈恋爱，有时候，可能不知道该做什么，但是，至少现在，别人能做到的，我都会努力的去做。
+                </p>
+            </div>
+        </div>
+ </div>
+
+<p>小龙女，自从我们第一次相见，时间，已经过去了：</p>
+
 <br />
 <p>在看到你的那一刻，我心动了</p>
 <canvas height="500" id="c" width="500"></canvas>
