@@ -1,21 +1,21 @@
 <div id="messages" style="display: block;">
-Ğ¡ÁúÅ®£¬×Ô´ÓµÚÒ»´ÎÏà¼û£¬Ê±¼ä£¬ÒÑ¾­¹ıÈ¥ÁË
+å°é¾™å¥³ï¼Œè‡ªä»ç¬¬ä¸€æ¬¡ç›¸è§ï¼Œæ—¶é—´ï¼Œå·²ç»è¿‡å»äº†:
       <br />
 <div id="elapseClock">
 <span class="digit">0</span> year <span class="digit">2</span> month <span class="digit">0</span> day <span class="digit">07</span> hr <span class="digit">22</span> min <span class="digit">33</span> sec</div>
 </div>
 <div id="loveu" style="display: block;">
-ÔÚ¿´µ½ÄãµÄÄÇÒ»¿Ì£¬ÎÒĞÄ¶¯ÁË
+åœ¨çœ‹åˆ°ä½ çš„é‚£ä¸€åˆ»ï¼Œæˆ‘å¿ƒåŠ¨äº†
      </div>
 <canvas height="500" id="c" width="500"></canvas>
 
 <div id="loveu2" style="display: block;">
-ÉíÎªITÄĞµÄÎÒ£¬²»Ì«»áÍæÀËÂş£¬ÎÒÒ²²»»áËµÌ«¶àµÄÌğÑÔÃÛÓï£¬ÎÒÓÃĞ´´úÂëµÄ·½Ê½´´ÔìÁËÕâ¸öÒ³Ãæ£¬Éú³ÉÁËÕâÖ»Ãµ¹å»¨£¬ËüÖ»ÎªÄã¶ø¿ª·Å¡£
+èº«ä¸ºITç”·çš„æˆ‘ï¼Œä¸å¤ªä¼šç©æµªæ¼«ï¼Œæˆ‘ä¹Ÿä¸ä¼šè¯´å¤ªå¤šçš„ç”œè¨€èœœè¯­ï¼Œæˆ‘ç”¨å†™ä»£ç çš„æ–¹å¼åˆ›é€ äº†è¿™ä¸ªé¡µé¢ï¼Œç”Ÿæˆäº†è¿™åªç«ç‘°èŠ±ï¼Œå®ƒåªä¸ºä½ è€Œå¼€æ”¾ã€‚
 <br />
-ÎÒ£¬ÆäÊµ²»ÊÇºÜ»áÌ¸Áµ°®£¬ÓĞÊ±ºò£¬¿ÉÄÜ²»ÖªµÀ¸Ã×öÊ²Ã´£¬µ«ÊÇ£¬ÖÁÉÙÏÖÔÚ£¬±ğÈËÄÜ×öµ½µÄ£¬ÎÒ¶¼»áÅ¬Á¦µÄÈ¥×ö¡£
+æˆ‘ï¼Œå…¶å®ä¸æ˜¯å¾ˆä¼šè°ˆæ‹çˆ±ï¼Œæœ‰æ—¶å€™ï¼Œå¯èƒ½ä¸çŸ¥é“è¯¥åšä»€ä¹ˆï¼Œä½†æ˜¯ï¼Œè‡³å°‘ç°åœ¨ï¼Œåˆ«äººèƒ½åšåˆ°çš„ï¼Œæˆ‘éƒ½ä¼šåŠªåŠ›çš„å»åšã€‚
 <br />
 <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/298440551%3Fsecret_token%3Ds-9pkdJ&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
-ÎÒÃÇµÄµÚÒ»¸öºÏ³ª^
+æˆ‘ä»¬çš„ç¬¬ä¸€ä¸ªåˆå”±^
 <br />
 
 <br />
@@ -74,7 +74,7 @@
     function clear_canvas()
     {
         ctx.clearRect(0,0,520,500);
-        //canvas.parentNode.removeChild(canvas);   //É¾³ı
+        //canvas.parentNode.removeChild(canvas);   //åˆ é™¤
     }
 
     function stop_draw(obj){
@@ -147,12 +147,12 @@ function timeElapse(date, mode) {
  }
 
 
- var result = "<span class=\"digit\">" + years + "</span> Äê ";
- result += "<span class=\"digit\">" + months + "</span> ¸öÔÂ ";
- result += "<span class=\"digit\">" + days + "</span> Ìì ";
- result += "<span class=\"digit\">" + hours + "</span> Ğ¡Ê± ";
- result += "<span class=\"digit\">" + minutes + "</span> ·ÖÖÓ ";
- result += "<span class=\"digit\">" + seconds + "</span> Ãë";
+ var result = "<span class=\"digit\">" + years + "</span> å¹´ ";
+ result += "<span class=\"digit\">" + months + "</span> ä¸ªæœˆ ";
+ result += "<span class=\"digit\">" + days + "</span> å¤© ";
+ result += "<span class=\"digit\">" + hours + "</span> å°æ—¶ ";
+ result += "<span class=\"digit\">" + minutes + "</span> åˆ†é’Ÿ ";
+ result += "<span class=\"digit\">" + seconds + "</span> ç§’";
 
 document.getElementById("elapseClock").innerHTML = result;
 
